@@ -1,0 +1,241 @@
+@import "tailwindcss";
+
+/* Enable class-based dark mode */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ========================================
+   Catppuccin Mocha Dark Pastel Palette
+   ======================================== */
+:root {
+  /* Foundation */
+  --ctp-base: #1e1e2e;
+  --ctp-mantle: #181825;
+  --ctp-crust: #11111b;
+  --ctp-surface0: #313244;
+  --ctp-surface1: #45475a;
+  --ctp-surface2: #585b70;
+
+  /* Text */
+  --ctp-text: #cdd6f4;
+  --ctp-subtext1: #bac2de;
+  --ctp-subtext0: #a6adc8;
+  --ctp-overlay0: #6c7086;
+
+  /* Pastel Accents */
+  --ctp-mauve: #cba6f7;
+  --ctp-blue: #89b4fa;
+  --ctp-sapphire: #74c7ec;
+  --ctp-teal: #94e2d5;
+  --ctp-green: #a6e3a1;
+  --ctp-yellow: #f9e2af;
+  --ctp-peach: #fab387;
+  --ctp-red: #f38ba8;
+  --ctp-pink: #f5c2e7;
+  --ctp-lavender: #b4befe;
+  --ctp-flamingo: #f2cdcd;
+  --ctp-rosewater: #f5e0dc;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Dark mode body background - Catppuccin Base */
+.dark body,
+.dark {
+  background-color: var(--ctp-base);
+  color: var(--ctp-text);
+}
+
+/* Prevent all buttons from shrinking and text wrapping */
+button {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Custom scrollbar for dark mode */
+.dark ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: var(--ctp-mantle);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: var(--ctp-surface1);
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: var(--ctp-surface2);
+}
+
+/* Toast slide-in animation */
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.3s ease-out;
+}
+
+/* ========================================
+   TipTap/ProseMirror Editor Styles
+   ======================================== */
+
+/* Editor content styles */
+.ProseMirror {
+  outline: none;
+}
+
+.ProseMirror p {
+  margin: 0;
+}
+
+.ProseMirror ul {
+  padding-left: 1.5rem;
+  margin: 0.25rem 0;
+  list-style-type: disc;
+}
+
+.ProseMirror ol {
+  padding-left: 1.5rem;
+  margin: 0.25rem 0;
+  list-style-type: decimal;
+}
+
+.ProseMirror li {
+  margin: 0.125rem 0;
+  display: list-item;
+}
+
+.ProseMirror li p {
+  margin: 0;
+}
+
+/* Dark mode editor text */
+.dark .ProseMirror {
+  color: var(--ctp-text);
+}
+
+.dark .ProseMirror strong {
+  color: var(--ctp-text);
+}
+
+.dark .ProseMirror em {
+  color: var(--ctp-subtext1);
+}
+
+/* ========================================
+   HTML Content Display Styles (HtmlContent component)
+   ======================================== */
+
+/* Global list styles for rendered HTML content */
+ul, ol {
+  padding-left: 1.5rem;
+  margin: 0.25rem 0;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+li {
+  display: list-item;
+  margin: 0.125rem 0;
+}
+
+li p {
+  margin: 0;
+  display: inline;
+}
+
+/* Inline variant - lists display horizontally without bullets */
+.html-inline ul,
+.html-inline ol {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.html-inline li {
+  display: inline;
+}
+
+.html-inline li::after {
+  content: ', ';
+}
+
+.html-inline li:last-child::after {
+  content: '';
+}
+
+/* ========================================
+   AI Example Display Styles
+   ======================================== */
+
+/* Example container */
+.example {
+  padding: 0.75rem 0;
+}
+
+.example p {
+  margin: 0.25rem 0;
+  line-height: 1.5;
+}
+
+/* Chinese sentence - bold and larger */
+.example p:first-child,
+.example p strong {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+/* Pinyin - teal color */
+.example .pinyin,
+.example p.pinyin {
+  color: var(--ctp-teal);
+  font-size: 0.9375rem;
+}
+
+/* Sino-Vietnamese - muted */
+.example .sino,
+.example p.sino {
+  color: var(--ctp-subtext0);
+  font-size: 0.875rem;
+}
+
+/* Vietnamese meaning - green */
+.example .meaning,
+.example p.meaning {
+  color: var(--ctp-green);
+  font-size: 0.9375rem;
+  margin-top: 0.5rem;
+}
+
+/* Horizontal rule between examples */
+.example + hr,
+hr + .example {
+  margin: 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--ctp-surface1);
+  margin: 0.5rem 0;
+}

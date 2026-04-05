@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "histories": {
+    "1768303323087": {
+      "note_id": 1768303323087,
+      "word": "钟",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Bộ thủ nào tạo thành từ này?",
+          "timestamp": "2026-01-15T07:35:31.305833"
+        },
+        {
+          "role": "assistant",
+          "content": "Phân tích bộ thủ của từ \"钟\" (zhōng):\n\n*   **Bộ thủ:**\n    *   钅 (金, jīn): Kim, nghĩa là kim loại, vàng.\n    *   中 (zhōng): Trung, nghĩa là ở giữa, trung tâm.\n\n*   **Ý nghĩa của bộ thủ:**\n    *   **钅 (Kim):** Biểu thị rằng chuông được làm bằng kim loại.\n    *   **中 (Trung):** Vừa biểu thị âm đọc (phần âm của chữ), vừa gợi ý đến hình dáng của chuông (rỗng ở giữa).\n\n*   **Cách bộ thủ góp phần vào nghĩa của từ:**\n    *   Sự kết hợp của \"Kim\" và \"Trung\" cho thấy \"chuông\" là một vật dụng bằng kim loại và có hình dạng đặc trưng.\n\n*   **Cách viết (thứ tự nét):**\n    1.  丿 (piě)\n    2.  一 (héng)\n    3.  一 (héng)\n    4.  丨 (shù)\n    5.  丶 (diǎn)\n    6.  フ (héng zhé)\n    7.  丨 (shù)\n    8.  一 (héng)\n    9.  丨 (shù)\n",
+          "timestamp": "2026-01-15T07:35:34.425193"
+        },
+        {
+          "role": "user",
+          "content": "Từ này có phổ biến không?",
+          "timestamp": "2026-01-15T07:52:02.516297"
+        },
+        {
+          "role": "assistant",
+          "content": "Có, từ \"钟\" (zhōng) là một từ rất phổ biến trong tiếng Trung. Nó được sử dụng rộng rãi trong nhiều ngữ cảnh khác nhau, từ chỉ vật dụng cụ thể (chuông) đến các khái niệm trừu tượng (thời gian).\n",
+          "timestamp": "2026-01-15T07:52:03.806226"
+        }
+      ],
+      "updated_at": "2026-01-15T07:52:03.806226"
+    },
+    "1763797044391": {
+      "note_id": 1763797044391,
+      "word": "你迴來啦",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Phân tích cấu tạo cụm từ",
+          "timestamp": "2026-01-15T07:44:12.499958"
+        },
+        {
+          "role": "assistant",
+          "content": "Phân tích cấu trúc ngữ pháp của \"你迴來啦\" (nǐ huí lái la):\n\n*   **你 (nǐ):**\n    *   Loại từ: Đại từ nhân xưng\n    *   Chức năng: Chủ ngữ (Subject)\n    *   Nghĩa: Bạn\n\n*   **迴 (huí):**\n    *   Loại từ: Động từ\n    *   Chức năng: Động từ chính (Verb)\n    *   Nghĩa: Về, trở lại\n\n*   **來 (lái):**\n    *   Loại từ: Động từ\n    *   Chức năng: Bổ ngữ xu hướng (Directional Complement)\n    *   Nghĩa: Đến\n    *   Giải thích: Trong tiếng Trung, \"來\" và \"去\" thường được dùng sau động từ chính để chỉ phương hướng của hành động. Ở đây, \"來\" chỉ hướng của hành động \"迴\" (về) là hướng \"đến\" người nói.\n\n*   **啦 (la):**\n    *   Loại từ: Trợ từ ngữ khí (Modal Particle)\n    *   Chức năng: Biểu thị sự thay đổi tình huống, sự khẳng định, hoặc một câu hỏi tu từ.\n    *   Nghĩa: À, rồi, vậy\n    *   Giải thích: \"啦\" kết hợp giữa \"了\" (le - biểu thị sự hoàn thành) và \"啊\" (a - biểu thị sự ngạc nhiên, nhẹ nhàng). Trong câu này, \"啦\" thể hiện sự nhận ra và khẳng định việc người đó đã về.\n\n**Cấu trúc ngữ pháp:**\n\n*   **S-V-C (Subject - Verb - Complement):** Chủ ngữ - Động từ - Bổ ngữ\n    *   Cụ thể: 你 (Chủ ngữ) - 迴 (Động từ) - 來 (Bổ ngữ xu hướng)\n    *   \"啦\" là trợ từ ngữ khí, không thuộc thành phần chính của câu.\n\n**So sánh với cấu trúc tiếng Việt:**\n\n*   Tiếng Việt: Bạn về rồi à/ Bạn đã về rồi.\n*   Cấu trúc tương đương: Chủ ngữ - Động từ - Trạng ngữ (thời gian) - Trợ từ.\n*   Sự khác biệt: Tiếng Việt sử dụng \"rồi\" để chỉ sự hoàn thành, còn tiếng Trung dùng \"啦\" (kết hợp ý nghĩa của \"了\" và \"啊\").  Bổ ngữ xu hướng \"來\" cũng là một điểm khác biệt, tiếng Việt không có cấu trúc tương tự trực tiếp trong trường hợp này.\n\n**Ghi chú về thứ tự từ:**\n\n*   Thứ tự từ trong tiếng Trung và tiếng Việt khá tương đồng trong câu này (Chủ ngữ + Động từ). Tuy nhiên, việc sử dụng bổ ngữ xu hướng (來) sau động từ chính là đặc trưng của ngữ pháp tiếng Trung mà tiếng Việt không có cách diễn đạt tương đương một cách trực tiếp.\n",
+          "timestamp": "2026-01-15T07:44:17.149274"
+        }
+      ],
+      "updated_at": "2026-01-15T07:44:17.149274"
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "点心": {
+    "entry": {
+      "word": "点心",
+      "readings": [
+        {
+          "pinyin": "diǎn",
+          "meaning": "",
+          "is_common": true
+        },
+        {
+          "pinyin": "diǎnxin",
+          "meaning": "",
+          "is_common": true
+        }
+      ],
+      "url": "https://www.zdic.net/hans/%E7%82%B9%E5%BF%83",
+      "is_polyphonic": true
+    },
+    "cached_at": "2026-01-11T23:32:17.767592"
+  },
+  "面包": {
+    "entry": {
+      "word": "面包",
+      "readings": [
+        {
+          "pinyin": "miàn",
+          "meaning": "",
+          "is_common": true
+        },
+        {
+          "pinyin": "miànbāo",
+          "meaning": "",
+          "is_common": true
+        }
+      ],
+      "url": "https://www.zdic.net/hans/%E9%9D%A2%E5%8C%85",
+      "is_polyphonic": true
+    },
+    "cached_at": "2026-01-11T23:32:22.379046"
+  },
+  "出门": {
+    "entry": {
+      "word": "出门",
+      "readings": [
+        {
+          "pinyin": "chū",
+          "meaning": "",
+          "is_common": true
+        },
+        {
+          "pinyin": "chūmén",
+          "meaning": "",
+          "is_common": true
+        }
+      ],
+      "url": "https://www.zdic.net/hans/%E5%87%BA%E9%97%A8",
+      "is_polyphonic": true
+    },
+    "cached_at": "2026-01-11T23:32:28.224120"
+  },
+  "肉包": {
+    "entry": null,
+    "cached_at": "2026-01-11T23:32:39.883856"
+  },
+  "一点半": {
+    "entry": null,
+    "cached_at": "2026-01-11T23:33:00.664863"
+  },
+  "一半": {
+    "entry": {
+      "word": "一半",
+      "readings": [
+        {
+          "pinyin": "yī",
+          "meaning": "",
+          "is_common": true
+        },
+        {
+          "pinyin": "yībàn",
+          "meaning": "",
+          "is_common": true
+        }
+      ],
+      "url": "https://www.zdic.net/hans/%E4%B8%80%E5%8D%8A",
+      "is_polyphonic": true
+    },
+    "cached_at": "2026-01-11T23:33:20.864840"
+  },
+  "一点": {
+    "entry": {
+      "word": "一点",
+      "readings": [
+        {
+          "pinyin": "yì",
+          "meaning": "",
+          "is_common": true
+        },
+        {
+          "pinyin": "yīdiǎn",
+          "meaning": "",
+          "is_common": true
+        }
+      ],
+      "url": "https://www.zdic.net/hans/%E4%B8%80%E7%82%B9",
+      "is_polyphonic": true
+    },
+    "cached_at": "2026-01-11T23:33:24.123558"
+  },
+  "小": {
+    "entry": {
+      "word": "小",
+      "readings": [
+        {
+          "pinyin": "xiǎo",
+          "meaning": "",
+          "is_common": true
+        }
+      ],
+      "url": "https://www.zdic.net/hans/%E5%B0%8F",
+      "is_polyphonic": false
+    },
+    "cached_at": "2026-01-11T23:36:39.531163"
+  },
+  "下": {
+    "entry": {
+      "word": "下",
+      "readings": [
+        {
+          "pinyin": "xià",
+          "meaning": "",
+          "is_common": true
+        }
+      ],
+      "url": "https://www.zdic.net/hans/%E4%B8%8B",
+      "is_polyphonic": false
+    },
+    "cached_at": "2026-01-11T23:37:04.075166"
+  },
+  "手": {
+    "entry": {
+      "word": "手",
+      "readings": [
+        {
+          "pinyin": "shǒu",
+          "meaning": "",
+          "is_common": true
+        },
+        {
+          "pinyin": "zhuó",
+          "meaning": "",
+          "is_common": true
+        }
+      ],
+      "url": "https://www.zdic.net/hans/%E6%89%8B",
+      "is_polyphonic": true
+    },
+    "cached_at": "2026-01-11T23:38:52.544911"
+  }
+}
